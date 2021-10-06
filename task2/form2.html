@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Выбор квартиры</title>
+        <link rel="icon" href="images/keys.png" type="image/x-icon">
+        </head>
+    <body>
+    <h1>Подбор квартиры в Санкт-Петербурге</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+        <p><label for="district">Укажите, какую квартиру Вы хотите снять/приобрести:</label></p>
+        <label>Укажите район:</label>
+        <select id="district" name="district">
+            <optgroup label="Район">
+                <option value="district">Центральный</option>
+                <option value="district">Василеостровский</option>
+                <option value="district">Адмиралтейский</option>
+                <option value="district">Приморский</option>
+                <option value="district">Московский</option>
+                <option value="district">Фрунзенский</option>
+                </optgroup>
+                </select>
+                </div>
+                <br>
+            <div>
+        <label>Укажите станцию метро/улицу:</label>
+        <select id="street" name="street">
+            <optgroup label="Станция метро/улица">
+                <option value="street">Гостиный двор</option>
+                <option value="street">Василеостровская</option>
+                <option value="street">Адмиралтейская</option>
+                <option value="street">Старая деревня</option>
+                <option value="street">Московская</option>
+                <option value="street">Купчино</option>
+                </optgroup>
+                </select>
+                </div>
+                <br>
+                <div>
+        <label for="room">Укажите, количество комнат:</label>
+        <select id="room" name="room">
+            <optgroup label="Количество комнат"></optgroup>
+                    <option value="room">Студия</option>
+                    <option value="one room">Однокомнатная</option>
+                    <option value="two rooms">Двухкомнатная</option>
+                    <option value="three rooms">Трехкомнатная</option>
+                    </optgroup>
+                    </select>    
+                    </div>
+                    <br>
+                    <div>
+        <label for="year">Укажите год сдачи дома:</label>
+        <select id="year" name="year">
+            <optgroup label="Год сдачи"></optgroup>
+            <option value="year">2000</option>
+            <option value="year">2005</option>
+            <option value="year">2010</option>
+            <option value="year">2015</option>
+            <option value="year">2020</option>
+            </optgroup>
+            </select>    
+            </div>
+            <br>
+            <div>
+        <label for="price">Укажите максимальную стоимость</label>
+        <input id="price" 
+            type="number"
+            name="price"
+            max="15.000.000"
+            step="500.000">
+            </div>
+            <br>
+        <div>
+        <label for="area">Укажите максимальную площадь</label>
+        <input id="area" 
+            type="number"
+            name="area"
+            max="95"
+            step="500.000">
+            </div>
+            <br>
+        <div>
+        <label>Укажите наличие отделки:</label>
+        <select id="decoration" name="decoration">
+            <optgroup label="Отделка">
+                <option value="decoration">С отделкой</option>
+                <option value="decoration">Без отделки</option>
+                </optgroup>
+                </select>
+                </div>        
+                <br>
+                <div>
+    <label>Укажите наличие терассы:</label>
+    <select id="terrace" name="terrace">
+        <optgroup label="Терасса">
+            <option value="terrace">С терассой</option>
+            <option value="terrace">Без терассы</option>
+            </optgroup>
+            </select>
+            </div>
+            <br>
+            <div>
+    <label for="class">Укажите класс квартиры:</label>
+            <label>Бизнес-класс<input type="checkbox" name="class"></label>
+            <label>Премиум<input type="checkbox" name="class"></label>
+            <label>Делюкс<input type="checkbox" name="class"></label>
+            </div>
+            <br>
+            <div>
+            <label for="floor">Укажите этаж квартиры:</label>
+            <select id="floor" name="floor">
+                <optgroup label="Класс">
+                    <option value="floor">Первый</option>
+                    <option value="floor">Второй</option>
+                    <option value="floor">Третий</option>
+                    <option value="floor">Чтевертый</option>
+                    <option value="floor">Пятый</option>
+            </optgroup>
+            </select> 
+                <label>Не первый:<input type="checkbox" name="floor"></label>
+                <label>Не последний:<input type="checkbox" name="floor"></label>
+                </div>
+            </form>
+                    </body>                  
+                    </html>
