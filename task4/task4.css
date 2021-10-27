@@ -1,0 +1,112 @@
+ul {
+    background-color:darkmagenta;
+    list-style-type: none
+}
+
+.menu {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+a {
+    color:whitesmoke;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu > li {
+    display:inline-block;
+}
+
+.menu > li {
+    padding: 15px 30px; /* top-bottom right-left */
+ }
+
+ .body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .container {
+     display: grid;
+     border: 5px solid;
+     grid-template-columns: 10fr 2fr;
+       
+ }
+
+ .grid-1 {
+    display: grid;
+    border: 5px solid;
+    background-color: none;
+    padding: 5px;
+    margin: 5px;
+    grid-column: auto;
+ }
+
+ .grid-2 {
+    display: grid;
+    border: 5px solid;
+    background-color: chocolate;
+ }
+
+ .block {
+    display: flex;
+    padding: 1px;
+    margin: 2px;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    flex-basis: 500px;
+    flex-grow: 1;
+}
+
+.block-1, .block-2, .block-3 {
+    display: flex;
+    background-color: darkmagenta;
+    padding: 5px;
+    margin: 5px;
+}
+
+.block-4, .block-5, .block-6 {
+    display: flex;
+    background-color:darkorange;
+    padding: 5px;
+    margin: 5px;
+}
+
+.block-5 {
+    column: 2fr;
+}
+
+.link {
+    color: darkblue;
+    background-color: darkorange;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    
+    }
+
+ .element {
+    background-color:darkgoldenrod;
+    padding: 3px;
+    margin: 3px; 
+    justify-content:space-around;
+    align-items: baseline;
+ }
+
+ .footer {
+    display: flex;
+    background-color: darkorange;
+ }
+
+ p {
+    width="300px";
+    height="300px";
+ }
+
+ .flex-row {
+    display: flex;
+    flex-direction: row;
+}
